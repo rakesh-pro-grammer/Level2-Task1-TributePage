@@ -1,0 +1,94 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #efe7e7e6;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    background: #1fff9e;
+    padding: 20px;
+    box-shadow: 6px 6px 20px 8px #ffdc79;
+}
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #003366;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #007acc;
+    margin-top: 10px;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #007acc;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Section Headings */
+section h3 {
+    font-size: 1.8em;
+    color: #007acc;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Achievements List */
+.achievements ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.achievements li {
+    margin-bottom: 10px;
+}
+
+/* Quote Section */
+.quote blockquote {
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto 20px;
+    padding: 20px;
+}
